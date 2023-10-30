@@ -12,8 +12,8 @@
 
 let m = 1
 
-// // optional chaining
-// //optional chaining จะใช้กับโปรแกนมที่มีความเสี่ยงจะเป็น null || undefinded จะไม่เกิด error ค่าจะเป็น undefinded
+ // optional chaining
+ //optional chaining จะใช้กับโปรแกนมที่มีความเสี่ยงจะเป็น null || undefinded จะไม่เกิด error ค่าจะเป็น undefinded
 // console.log(m?.id)
 // console.log(m?.charAt(0)) //output: undefined // ค่าเป็น null || undefinded = ไม่มีค่าข้าในเลยจะerror
 // console.log(m?.[0]) // output: undefined

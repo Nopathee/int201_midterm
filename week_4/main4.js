@@ -2,7 +2,11 @@
 let x = [1,3,true, 'unknown']
 
 //object data type
-let m = {id:1,title:'pen'}
+let m = {
+            id:1,   
+            title:'pen'
+        }
+let k = [1,'pen']
 
 let scores = 70;
 let grade = 'F'

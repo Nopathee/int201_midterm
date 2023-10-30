@@ -5,6 +5,7 @@ let z = x
 console.log(x===y); // false //data เหมือนกัน แต่ memory address ไม่เหมือนกัน
 console.log(x===z) // true
 
+
 z[0] = 'A'
 x[0] = 'B'
 y[0] = 'A'
@@ -16,7 +17,10 @@ console.log(z)
 console.log('---')
 
 //object data type
-let m = {id:1 , title:'pen'}
+let m = {
+            id:1 ,
+            title:'pen'
+        }
 let n = {id:1 , title:'pen'}
 let o = m // give memory address from m to o
 console.log(m === n) // false // memory address of m === memory address of n
